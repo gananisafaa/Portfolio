@@ -217,7 +217,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "See Project",
-          url: "http://saayahealth.com/"
+          url: "https://github.com/gananisafaa/TicTacToe"
         }
         //  you can add extra buttons here.
       ]
