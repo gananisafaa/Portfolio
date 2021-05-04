@@ -317,22 +317,22 @@ const blogSection = {
     {
       title: "Team-Work",
       description:
-      "PWhen it comes to working in a team, not everyone’s cut out for it. But the reality is, teamwork is one of " +
+      "When it comes to working in a team, not everyone’s cut out for it. But the reality is, teamwork is one of " +
           "the most vital competencies in most forms of employment. "
     },
     {
       title: "Arabic",
-      description: "Mother Tongue",
+      description: "Native",
 
     },
     {
       title: "English",
-      description: "Codelab at GDG DevFest Karachi 2019",
+      description: "Fluent",
 
     },
     {
       title: "French",
-      description: "Codelab at GDG DevFest Karachi 2019",
+      description: "Bilingual",
 
     },
 
