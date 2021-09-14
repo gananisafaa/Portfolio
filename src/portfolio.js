@@ -172,14 +172,32 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Mobile Developer",
+      role: "Mobile Developer Intern",
       company: "Firethunder",
       companylogo: require("./assets/images/firethunder.png"),
       date: "July 2020 – August 2020",
       desc:
-        "Mobile developement using Flutter",
+        "Mobile Development using Flutter",
       descBullets: [
         "Mobile App that manages flows between doctors and nurses",
+
+      ]
+    },
+    {
+      role: "Backend Developer Intern",
+      company: "World Audit",
+      companylogo: require("./assets/images/firethunder.png"),
+      date: "July 2021 – September 2021",
+      desc:
+        "Web Development using SpringBoot - Kotlin - KeyCloak ",
+      descBullets: [
+        "• Lead the team\n" +
+        "• Creat the project design\n" +
+        "• Develop the backend of the application based on:\n" +
+        "     - Clean Architecture\n" +
+        "     - Domain Driven Design\n" +
+        "     - Micro services\n" +
+        "• Deploy the application at the server level",
 
       ]
     },
@@ -192,7 +210,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -206,6 +224,14 @@ const bigProjects = {
       image: require("./assets/images/staff.jpg"),
       projectName: "HospitalApp",
       projectDesc: "Mobile App that manages flows between doctors and nurses, using Flutter",
+      footerLink: [
+
+      ]
+    },
+    {
+      image: require("./assets/images/digitalBanking.png"),
+      projectName: "Digital Banking",
+      projectDesc: "Mobile/Web App that Allows access to your Bank account information, transfer money and pay public bills",
       footerLink: [
 
       ]
@@ -247,6 +273,22 @@ const achievementSection = {
     "Achievements and Certifications that I have done !",
 
   achievementsCards: [
+    {
+      title: "Social Skills - Honoris United Universities",
+      subtitle:
+          ". Improve your personal effectiveness\n" +
+          ". Give a boost to your communication style\n" +
+          ". Get your team working together",
+      image: require("./assets/images/softSkills.png"),
+      footerLink: [
+        {
+          name: "View More",
+          url:
+            "https://certificate.bcdiploma.com/check/B6DB3723594EBE7F92DBD786051867AA602D515C5BCE0EA74D0E7A91F16B2BE7Y1hwNTl1YXpYZEwraCtoZ1BLd0RxRUl0Nk1SczBYZWMrMkVKc3RmTzdwOGoxd3h2"
+        },
+
+      ]
+    },
     {
       title: "Artificial Intelligence - IBM",
       subtitle:
