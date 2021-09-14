@@ -20,7 +20,7 @@ const greeting = {
 
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1JPYxzLqhDNg6PIvkcjqbFmirzcb4gm7d/view?usp=sharing",
+    "https://drive.google.com/file/d/1J7vYCW-kcDdoqgYWD_j1KTC9CeOLFLAa/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -29,10 +29,9 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/gananisafaa",
   linkedin: "https://www.linkedin.com/in/saf%C3%A2a-ganani-7a3535195/",
-  gmail: "ganani.sg@gmail.com",
-  gitlab: "",
+  gmail: "ganani.safaa.works@gmail.com",
+  gitlab: "https://gitlab.com/gananisafaa",
   facebook: "https://www.facebook.com/safaa.gs.10/",
-  stackoverflow: "https://stackoverflow.com/users/15827087/ganani-saf%c3%a2a?tab=profile",
   instagram: "https://www.instagram.com/imsafaags/",
   // Instagram and Twitter are also supported in the links!
   display: true // Set true to display this section, defaults to false
@@ -186,7 +185,7 @@ const workExperiences = {
     {
       role: "Backend Developer Intern",
       company: "World Audit",
-      companylogo: require("./assets/images/firethunder.png"),
+      companylogo: require("./assets/images/waLogo.png"),
       date: "July 2021 – September 2021",
       desc:
         "Web Development using SpringBoot - Kotlin - KeyCloak ",
