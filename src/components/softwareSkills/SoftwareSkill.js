@@ -1,9 +1,10 @@
-import React from "react";
+import React, {createRef} from "react";
 import "./SoftwareSkill.css";
 import {skillsSection} from "../../portfolio";
 
 export default function SoftwareSkill() {
-  return (
+    const imgRef = createRef();
+    return (
     <div>
       <div className="software-skills-main-div">
         <ul className="dev-icons">
@@ -14,7 +15,15 @@ export default function SoftwareSkill() {
                 className="software-skill-inline"
                 name={skills.skillName}
               >
-                <i className={skills.fontAwesomeClassname}></i>
+                  <div className="education-card-left">
+                      <img
+                          crossOrigin={"anonymous"}
+                          ref={imgRef}
+                          className="education-roundedimg"
+                          src={skills.logo}
+                          alt={skills.skillName}
+                      />
+                  </div>
                 <p>{skills.skillName}</p>
               </li>
             );

@@ -12,15 +12,15 @@ const greeting = {
   username: "Ganani Safâa",
   title: "Hello, I'm Safâa",
   subTitle: emoji(
-    " I am passionate about artificial intelligence, big data and mobile development 🚀 ." +
+    " I am passionate about Machine Learning, Web and Mobile development 🚀 ." +
       " I was fortunate to be able to develop my skills within EMSI: Moroccan School of Engineering Sciences. " +
-      "Being a student in the fourth year of this school, I want to become an AI programmer." +
+      "Being a student in the fifth year of this school, I want to become an AI programmer." +
       " Thanks to my various experiences I was able to develop during these years soft skills such as:" +
       " -A great capacity for learning; -A great capacity for adaptation; -Very good at team working. "
 
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1J7vYCW-kcDdoqgYWD_j1KTC9CeOLFLAa/view?usp=sharing",
+    "https://drive.google.com/file/d/1T9G2k5BLQ_YjviiLAuqybZzlZiv2ghOG/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -47,7 +47,7 @@ const skillsSection = {
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
     ),
     emoji(
-      "⚡ Integration of third party services such as Firebase"
+      "⚡ Use Machine Learning to train models and make machines more intelligent "
     )
   ],
 
@@ -57,47 +57,68 @@ https://fontawesome.com/icons?d=gallery */
   softwareSkills: [
 
     {
-      skillName: "Java",
-      fontAwesomeClassname: "fab fa-java"
+      skillName: "TensorFlow",
+      logo: require("./assets/images/tensorflow.png"),
     },
     {
       skillName: "Python",
-      fontAwesomeClassname: "fab fa-python"
+      logo: require("./assets/images/python.png"),
     },
     {
-      skillName: "HTML-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "Java",
+      logo: require("./assets/images/java.png"),
+    },
+
+    {
+      skillName: "Kotlin",
+      logo: require("./assets/images/kotlin.png"),
     },
     {
-      skillName: "CSS3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "Dart",
+      logo: require("./assets/images/dart.png"),
+    },
+    {
+      skillName: "Android Native",
+      logo: require("./assets/images/android.png"),
     },
     {
       skillName: "Flutter",
-      fontAwesomeClassname: "fas fa-laptop-code"
+      logo: require("./assets/images/flutter.png"),
     },
     {
-      skillName: "Android",
-      fontAwesomeClassname: "fab fa-android"
+      skillName: "SpringBoot",
+      logo: require("./assets/images/spring.png"),
     },
     {
-      skillName: "ReactNative",
-      fontAwesomeClassname: "fab fa-react"
+      skillName: "Angular",
+      logo: require("./assets/images/angular.png"),
+    },
+    {
+      skillName: "MySQL",
+      logo: require("./assets/images/mysql.png"),
+    },
+    {
+      skillName: "MariaDB",
+      logo: require("./assets/images/mariadb.png"),
+    },
+    {
+      skillName: "Oracle",
+      logo: require("./assets/images/oracle.png"),
+    },
+    {
+      skillName: "Docker",
+      logo: require("./assets/images/docker.png"),
+    },
+    {
+      skillName: "Gitlab",
+      logo: require("./assets/images/gitlab.png"),
+    },
+    {
+      skillName: "Jira",
+      logo: require("./assets/images/jira.png"),
     },
 
-    {
-      skillName: "Oracle-Database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "Sql-Database",
-      fontAwesomeClassname: "fas fa-database"
-    },
 
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
 
 
   ],
@@ -142,25 +163,22 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend", //Insert stack or technology you have experience in
+      Stack: "Machine Learning", //Insert stack or technology you have experience in
       progressPercentage: "75%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "90%"
+      Stack: "SpringBoot",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "Frontend",
+      progressPercentage: "70%"
     },
     {
       Stack: "Scrum",
       progressPercentage: "80%"
     },
-    {
-      Stack: "Big Data",
-      progressPercentage: "50%"
-    },
-    {
-      Stack: "Artificial Intelligence",
-      progressPercentage: "50%"
-    }
+
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
@@ -190,15 +208,15 @@ const workExperiences = {
       desc:
         "Web Development using SpringBoot - Kotlin - KeyCloak ",
       descBullets: [
-        "• Lead the team\n" +
-        "• Creat the project design\n" +
-        "• Develop the backend of the application based on:\n" +
-        "     - Clean Architecture\n" +
-        "     - Domain Driven Design\n" +
-        "     - Micro services\n" +
+        "• Lead the team \n" +
+        "• Creat the project design \n" +
+        "• Develop the backend of the application based on: \n" +
+        "     - Clean Architecture \n" +
+        "     - Domain Driven Design \n" +
+        "     - Micro services \n" +
         "• Deploy the application at the server level",
 
-      ]
+      ],
     },
 
   ]
@@ -219,6 +237,14 @@ const bigProjects = {
   subtitle: "SOME PROJECTS THAT I HAVE DONE DURING MY STUDIES",
   projects: [
 
+    {
+      image: require("./assets/images/face.png"),
+      projectName: "Face Recognition ",
+      projectDesc: "Recognise Faces on a WebCam and detect their gender and age",
+      footerLink: [
+
+      ]
+    },
     {
       image: require("./assets/images/staff.jpg"),
       projectName: "HospitalApp",
@@ -272,6 +298,26 @@ const achievementSection = {
     "Achievements and Certifications that I have done !",
 
   achievementsCards: [
+
+    {
+      title: "Neural Network And  Deep Learning - Coursera",
+      subtitle:
+          "This course will make you familiar with the significant technological" +
+          " trends driving the rise of deep learning; build, train," +
+          " and apply fully connected deep neural networks; implement " +
+          "efficient (vectorized) neural networks; identify key parameters" +
+          " in a neural network’s architecture; " +
+          "and apply deep learning to your own applications.",
+      image: require("./assets/images/coursera.png"),
+      footerLink: [
+        {
+          name: "View More",
+          url:
+            "https://certificate.bcdiploma.com/check/B6DB3723594EBE7F92DBD786051867AA602D515C5BCE0EA74D0E7A91F16B2BE7Y1hwNTl1YXpYZEwraCtoZ1BLd0RxRUl0Nk1SczBYZWMrMkVKc3RmTzdwOGoxd3h2"
+        },
+
+      ]
+    },
     {
       title: "Social Skills - Honoris United Universities",
       subtitle:
@@ -283,7 +329,7 @@ const achievementSection = {
         {
           name: "View More",
           url:
-            "https://certificate.bcdiploma.com/check/B6DB3723594EBE7F92DBD786051867AA602D515C5BCE0EA74D0E7A91F16B2BE7Y1hwNTl1YXpYZEwraCtoZ1BLd0RxRUl0Nk1SczBYZWMrMkVKc3RmTzdwOGoxd3h2"
+              "https://certificate.bcdiploma.com/check/B6DB3723594EBE7F92DBD786051867AA602D515C5BCE0EA74D0E7A91F16B2BE7Y1hwNTl1YXpYZEwraCtoZ1BLd0RxRUl0Nk1SczBYZWMrMkVKc3RmTzdwOGoxd3h2"
         },
 
       ]
@@ -361,21 +407,7 @@ const blogSection = {
       "When it comes to working in a team, not everyone’s cut out for it. But the reality is, teamwork is one of " +
           "the most vital competencies in most forms of employment. "
     },
-    {
-      title: "Arabic",
-      description: "Native",
 
-    },
-    {
-      title: "English",
-      description: "Fluent",
-
-    },
-    {
-      title: "French",
-      description: "Bilingual",
-
-    },
 
 
   ],
@@ -430,7 +462,7 @@ const contactInfo = {
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+212 770144467",
-  email_address: "ganani.sg@gmail.com"
+  email_address: "ganani.safaa.works@gmail.com"
 };
 
 // Twitter Section
