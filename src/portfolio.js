@@ -20,7 +20,7 @@ const greeting = {
 
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1T9G2k5BLQ_YjviiLAuqybZzlZiv2ghOG/view?usp=sharing",
+    "https://drive.google.com/file/d/1WQZYQTM3pohqOVJJ140t6nzC6Du3wLIb/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
