@@ -242,7 +242,10 @@ const bigProjects = {
       projectName: "Face Recognition ",
       projectDesc: "Recognise Faces on a WebCam and detect their gender and age",
       footerLink: [
-
+        {
+          name: "See Project",
+          url: "https://github.com/gananisafaa/genderAgeDetection_conda"
+        }
       ]
     },
     {
